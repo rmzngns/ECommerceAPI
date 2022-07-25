@@ -2,7 +2,7 @@ using ECommerceAPI.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddPersistenceServices();
+builder.Services.AddPersistenceService();
 
 builder.Services.AddControllers();
 
